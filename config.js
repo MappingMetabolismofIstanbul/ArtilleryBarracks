@@ -21,17 +21,46 @@ var config = {
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
     chapters: [
-    
+    {
+            id: '1',
+            alignment: 'left',
+            hidden: false,
+            title: '',
+            image: '',
+            description: '',
+            location: {
+                center: [28.985925899732237,41.03794958533777],
+                zoom: 12,
+                pitch: 35,
+                bearing: 0
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
+            callback: '',
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1,
+                //     duration: 5000
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
           {
             id: '2',
             alignment: 'left',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/V0RHXt4K/KI-1.png',
+            image: 'https://i.ibb.co/gL6552K9/1.png',
             description: '',
             location: {
                 center: [28.985925899732237,41.03794958533777],
-                zoom: 12,
+                zoom: 13,
                 pitch: 35,
                 bearing: 0
             },
@@ -57,7 +86,7 @@ var config = {
             alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/Q27jjLK/KI-2.png',
+            image: 'https://i.ibb.co/nMbvbbv4/2.png',
             description: '',
             location: {
                 center: [28.985925899732237,41.03794958533777],
@@ -87,7 +116,7 @@ var config = {
             alignment: 'centered',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/R4D3dNf5/KI-3.png',
+            image: 'https://i.ibb.co/20f9hm2S/33.png',
             description: '',
             location: {
                 center: [28.985925899732237,41.03794958533777],
@@ -114,10 +143,10 @@ var config = {
         },
           {
             id: '5',
-            alignment: 'left',
+            alignment: 'right',
             hidden: false,
             title: '',
-            image: 'https://i.ibb.co/YT0mmgZv/KI-4.png',
+            image: 'https://i.ibb.co/VY18FNy4/44.png',
             description: '',
             location: {
                 center: [28.985925899732237,41.03794958533777],
