@@ -19,7 +19,7 @@ var config = {
     title: 'Taksim Topçu Kışlası / Artillery Barracks',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
     {
             id: '1',
@@ -89,8 +89,8 @@ var config = {
             image: 'https://i.ibb.co/nMbvbbv4/2.png',
             description: '',
             location: {
-                center: [28.985925899732237,41.03794958533777],
-                zoom: 15,
+                center: [28.988836527517854,41.03904957175419],
+                zoom: 15.6,
                 pitch: 25,
                 bearing: 0
             },
@@ -149,13 +149,13 @@ var config = {
             image: 'https://i.ibb.co/VY18FNy4/44.png',
             description: '',
             location: {
-                center: [28.985925899732237,41.03794958533777],
-                zoom: 19,
-                pitch: 25,
+                center: [28.988836527517854,41.03904957175419],
+                zoom: 16,
+                pitch: 0,
                 bearing: 0
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
